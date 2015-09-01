@@ -1,3 +1,8 @@
+/*
+7. Making age property public so it can be accessed as
+   an attribute of the Luke Skywalker object/reference.
+*/
+
 class Person {
 
    // Properties of the class...
@@ -46,7 +51,6 @@ class Person {
    public void giveKnightHood() {
       name = "Sir " + name;
    }
-
 }
 
 class PersonTest {
@@ -71,5 +75,4 @@ class PersonTest {
       //Print age (and name) directly from main method
       System.out.println(ls.name + "'s age is " + ls.age);
    }
-
 }

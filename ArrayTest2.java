@@ -31,7 +31,6 @@ class ArrayTest2 {
       for (int i=0; i<threesome.length; i++) {
          System.out.print(threesome[i].toString() + "\n");
       }
-      
       printArray(threesome);
    }
 

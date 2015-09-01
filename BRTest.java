@@ -7,7 +7,6 @@ public class BRTest {
 
 	public void callIt() {
 		calls++;
-		
 		try {
 			totalReturned += BadRandom.randVal();
 			successfulCalls++;
